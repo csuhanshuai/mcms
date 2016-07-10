@@ -1,0 +1,62 @@
+body, div, ol, dl, dt, dd, ul, li, table, tr, td, h1, h2, h3, h4, h5, h6, p, form, button, img, strong, em { padding:0px; margin:0px; border:0px; font-style:normal; font-family:"Î¢ÈíÑÅºÚ";}
+body{ background:#eceef2;}
+li, dd, dt { list-style-type:none;}
+ol, ul, dl { list-style:none;}
+img { vertical-align:top;}
+a{text-decoration:none; outline:0; color:#fff;}
+::-webkit-input-placeholder { color:#ccc; } 
+input:-moz-placeholder { color:#ccc; }
+button::-moz-focus-inner, input::-moz-focus-inner {  margin:0; padding:0;}
+input,select, option, button, textarea { font-size:100%; vertical-align:middle; outline:0 none; border-radius:0px;}
+table{ border-collapse: collapse;border-spacing: 0;}
+/*Çå³ý¸¡¶¯ÑùÊ½*/
+.clear{ clear:both; height:0; width:100%;}
+.clearfix:after {visibility: hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.clearfix{zoom: 1; clear:both;}
+.fl{ float:left;}
+.fr{ float:right;}
+
+/*µÇÂ¼*/
+.sign_bao{ width:100%; background:#fff}
+.sign_top{ background:#00bfe9; height:400px;}
+.sign_top p{ color:#fff; font-size:30px; text-align:center; padding-top:210px}
+.sign_box{ background:#fff; width:387px; height:288px; margin:10px auto;-webkit-box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);}
+.sign_box_title{ font-size:20px; color:#666; padding:20px 30px}
+.sign_box_body{padding: 0 30px;}
+.sign_box_body input{height: 38px;width:289px; border: 1px solid #c9c9c9;padding-left: 38px;line-height:38px}
+.sign_box_body .denglv .i-login-e{ background-image: url(../images/sign.png); width: 20px;height: 20px;position: absolute;margin: 10px;}
+.sign_box_body .mima{ padding-top:20px}
+.sign_box_body .mima .i-login-e{ background-image: url(../images/mima.png); width: 20px;height: 20px;position: absolute;margin: 10px;}
+.sign_clear{ margin:20px 30px}
+.sign_fuxuan input{float:left ;width:16px; height:16px;}
+.sign_fuxuan label{ padding:5px}
+.sign_button{ background:#00bfe9; width:327px; height:38px; margin: 0 30px; color:#fff; border: none;}
+
+/*Ò³Í·*/
+.header{ height:55px; background:#ffffff;  box-shadow: 0 1px 4px #d7d9dd; position:relative; z-index:10;}
+.logo{ width:180px; height:55px; float:left;	}
+.top-contents{ padding-right: 20px;}
+.out{ line-height:55px;color:#78909c; font-size:14px;}
+.out a{ color:#00bfe8; margin-left:20px;}
+.wrapper,.wrapper-left{ min-height:712px;}
+.wrapper{ background:#2f3b4c;}
+.wrapper-fl{width:180px; float:left; margin-right: -100%;}
+.wrapper-fr{ min-height: 712px; background:#eceef2; margin-left:180px; overflow:hidden;}
+.wrapper-c{  background:#fff; min-height:500px; margin:20px;}
+.nav{ position:relative; z-index:15; background:#2f3b4c;}
+/*×ó²Ëµ¥*/
+.nav{ width:180px; float:left;}
+.nav li{ width:180px;  display: block;}
+.nav li a{    display: block; color:#b0bec5; position: relative; margin: 0; border: 0px; padding: 12px 15px; text-decoration: none;
+font-size: 14px; font-weight: 300; line-height:26px; margin-bottom:1px;}
+.nav li span,.nav li ul li span{ padding-left:5px;}
+.nav li .open,.nav li a:hover{ background: #2a3344; color: #ffffff;}
+.nav li ul li a{display: block; margin: 0;  padding: 6px 15px 6px 43px;  text-decoration: none;  font-size: 14px;  font-weight: 300; background: none;}
+.icon{ width:22px; height:22px; display:inline-block; background:url(../images/icon.png) no-repeat; vertical-align:middle;}
+.icon-1{ background-position:-1px -3px;}
+.icon-2{ background-position:-1px -48px;}
+.icon-3{ background-position:-1px -94px;}
+.icon-4{ background-position:0 -136px;}
+.icon-5{ background-position:0 -199px;}
+.icon-6{ background-position:0 -250px;}
+.icon-7{ background-position:0 -314px;}

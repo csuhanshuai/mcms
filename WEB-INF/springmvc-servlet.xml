@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/mvc  http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+		http://www.springframework.org/schema/tx  http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+        http://www.springframework.org/schema/beans  http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context  http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/aop  http://www.springframework.org/schema/aop/spring-aop-3.0.xsd"
+	default-autowire="byName">
+
+	<!-- 自动搜索@Controller标注的类 -->
+	<context:component-scan base-package="com"  />
+
+	<!-- 开启自动切面代理 -->
+	<aop:aspectj-autoproxy />
+
+	<bean class="com.qixin.platform.exception.DefaultHandlerExceptionResolver">
+		<property name="exceptionMappings">
+			<props>
+				<prop key="com.qixin.platform.exception.MallfriendlyException">
+					forward:systemException.kq</prop>
+				<prop key="java.lang.Exception">forward:error.kq </prop>
+			</props>
+		</property>
+	</bean>
+
+	<bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<bean
+					class="org.springframework.http.converter.StringHttpMessageConverter">
+					<property name="supportedMediaTypes">
+						<list>
+							<value>text/plain;charset=UTF-8</value>
+						</list>
+					</property>
+				</bean>
+			</list>
+		</property>
+
+		<!-- 验证框架配置 -->
+		<property name="webBindingInitializer">
+			<bean class="org.springframework.web.bind.support.ConfigurableWebBindingInitializer">
+				<property name="validator" ref="validator" />
+			</bean>
+		</property>
+	</bean>
+	<!-- JSR-303 Validator -->
+	<bean id="validator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+
+
+	<mvc:annotation-driven />
+
+	<!-- 配置处理器拦截器 -->
+	<mvc:interceptors>
+		<!-- 更改语言环境时，一个'locale'的请求参数发送  -->
+		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+
+		<!-- 表单重复提交拦截 -->
+		<mvc:interceptor> 
+ 			<mvc:mapping path="/**/*.kq" />
+ 			<bean class="com.qixin.app.system.web.FormRepeatSubmitInterceptor" /> 
+ 		</mvc:interceptor> 
+
+		<!-- 权限拦截 		-->
+		<mvc:interceptor>
+			<mvc:mapping path="/**/*.kq" />
+			<bean class="com.qixin.app.system.web.PrivilegeInterceptor"/>
+		</mvc:interceptor>
+	</mvc:interceptors>
+
+	<!-- 配置对文件上传的支持 -->
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" />
+
+	<bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" />
+
+
+	<bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="platform" />
+	</bean>
+
+
+	<tx:annotation-driven transaction-manager="transactionManager" proxy-target-class="true" />
+
+</beans>
+
+
+

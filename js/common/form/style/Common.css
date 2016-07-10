@@ -1,0 +1,58 @@
+body{margin:0;padding:0;font-size:12px; text-align:center;}
+ul,ol,dl,dt,dd,p,form,h1,h2,h3,h4,h5,select{margin:0;padding:0;}
+ul,ol{list-style:none;}
+h1,h2,h3,h4,h5{ font-size:12px;font-weight:normal;}
+.clear{ clear:both;}
+
+
+.indexstyle{ width:960px; margin:auto; text-align:left; padding-top:10px;}
+.Conetentb{ width:430px; float:left; border:1px solid #ccc; padding:1px; padding-bottom:15px;}
+.Conetentb h1{color:#fff; padding-left:15px; line-height:34px; font-weight:bold; background:url(../images/line_Img01.gif) repeat-x; padding-bottom:10px;}
+.Conetentb img{ float:left; margin-left:15px;}
+.Conetentb p{ float:left; display:block; line-height:22px; padding:0 15px;width:300px;}
+.Conetentb h2{ display:block; text-align:center; padding-top:15px;}
+	
+	
+.Content_font{ width:510px; float:right; border:1px solid #ccc; padding:1px;}
+.Content_font h1{ display:block; margin:15px; line-height:30px; border-bottom:1px solid #ccc; font-weight:bold; padding-left:15px;}
+.Content_font p{ padding:20px; line-height:22px;}
+
+
+/**/
+.MakeTitle{ height:23px; line-height:23px; margin-bottom:15px;}
+
+.MakeTitle ul{width:720px; margin:auto;}
+.MakeTitle ul li{ float:left; text-align:center;background:#f0f0f0;width:225px; padding-left:10px; border:1px solid #c6c6c6;}
+.MakeTitle ul li.bg{ background:#5b9000; color:#fff; position:relative;}
+.MakeTitle ul li span{
+	background:url(../images/line_Img02.gif) no-repeat;
+	position:absolute;
+	width:41px;
+	height:21px;
+	line-height:21px;
+	left: 234px;
+	top: 1px;
+	z-index:999;
+}
+.Appointment{ border:1px solid #ccc; padding:15px; width:900px; margin:auto;}
+.Appointment h1{ font-size:18px; font-weight:bold; line-height:30px; border-bottom:1px solid #ccc; padding-bottom:6px; padding-left:15px; margin-bottom:15px; color:#660;}
+.Appointment h2{ font-size:16px; font-weight:bold; border-bottom:1px solid #ccc; padding:0 0 10px 15px; margin:10px;}
+.Appointment h2 b{ color:#F60;}
+.Appointment h2 span{ display:block; background:url(../images/line_Img03.gif) no-repeat; width:87px; height:23px; float:right; font-size:12px; font-weight:normal; line-height:23px; padding-left:28px;}
+.AppointmentRgihth3{ display:block; padding-top:15px; text-align:center;}
+.Appointment h2 span a{ color:#F60;}
+.Appointment table{ width:80%; margin:auto; line-height:35px;}
+.Appointment table input{ border:1px solid #ccc; width:150px;}
+.Appointment table select{ width:100px;}
+.Appointment table hr{}
+.Appointment table tr td#radio input{ border:none; width:auto;}
+.AppointmentRgiht{ float:right; width:420px; border:1px solid #ccc; padding:10px;}
+.AppointmentRgiht p{ padding:6px; line-height:22px;}
+
+
+
+/*login*/
+.login{ width:380px; float:left; border:1px solid #ccc; padding:1px; padding-bottom:15px; text-align:left;}
+.login h1{color:#fff; padding-left:15px; line-height:34px; font-weight:bold; background:url(../images/line_Img01.gif) repeat-x; padding-bottom:10px;}
+.login ul{ margin:10px 25px; line-height:30px; }
+.login ul li.pad{ padding-top:10px;}

@@ -1,0 +1,10 @@
+#products .station{background:#28211B; color:#ddd;}
+#products .station a{color:#ddd;}
+#products .list-0{margin-top:-8px;}
+#products .list-0 .item{border-bottom:1px solid #28211B; background-image:linear-gradient(bottom, #362C23 0, #453F3A 100%); background-image:-moz-linear-gradient(bottom, #362C23 0, #453F3A 100%); background-image:-webkit-linear-gradient(bottom, #362C23 0, #453F3A 100%);}
+#products .list-0 .item .info h1{color:#eee;}
+#products .list-0 .item .info h3{color:#ccc;}
+#products .list-1 .item ul{background:#fff; padding-bottom:4px; margin-bottom:10px;}
+#products .list-1 .item ul .img{border:0;}
+#products .list-1 .item ul .name{height:28px; overflow:hidden;}
+#products #turn_page{color:#eee;}

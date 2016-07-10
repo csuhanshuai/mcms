@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin:0px auto;
+	padding:0px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	width:100%;
+	height:100%;
+}
+a{
+	text-decoration:none;
+	list-style:none;
+}
+img{
+	border:none;
+}
+ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	list-style-position:inside;
+}
+
+
+/*  nav  开始*/
+#nav{
+	width:1210px;
+	height:170px;
+	margin:0px auto;
+	font-size:12px;
+	background:#fff;
+}
+#nav .top{
+	width: 1210px;
+	height: 6px;
+	background: url(../images/bbjj_07.jpg);
+}
+#nav .account,.public,.analyse{
+	width: 380px;
+	height: 140px;
+	float: left;
+	margin-left: 19px;
+	margin-top: 10px;	
+}
+#nav .account{
+	background: #2A8CE7;
+	font-weight: bold;
+}
+#nav .account .uname{
+	width: 87px;
+	margin-left:20px;
+	margin-top: 20px;
+	float: left;
+}
+#nav .account .uname img{
+	width: 87px;
+	height: 87px;
+}
+#nav .account .uname span{
+	text-align: center;
+	display: block;
+	margin-top: 5px;
+	color: white;
+}
+#nav .account ul{
+	color: white;
+	margin-top: 20px;
+	margin-left:20px;
+	float: left;
+
+}
+#nav .account ul li{
+	margin-top: 5px;
+}
+#nav .account ul li span a{
+}
+#nav .account ul li span{
+	width: 70px;
+	height: 24px;
+	background: #82B52F;
+	display: block;
+	float: left;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 24px;
+}
+#nav .public{
+	background: #85B629;
+}
+#nav .public div{
+	width: 343px;
+	height: 86px;
+	border: 1px solid #74A024;
+	margin-left: 18px;
+	margin-top: 5px;
+	background: #95BF45;
+}
+#nav .public div .img{
+	margin-top: 10px;
+	margin-left: 10px;
+	width:66px;
+	height: 68px;
+	float: left;
+	margin-right: 20px;
+}
+#nav .public div .img img{
+	width: 66px;
+	height: 68px;
+}
+#nav .public div ul{
+	color: white;
+	font-weight: bold;
+	margin-top: 8px;
+}
+#nav .public div ul li span{
+	float: right;
+	margin-right: 20px;
+}
+#nav .public div ul li span a{
+	color: white;
+	font-weight: bold;
+}
+#nav .analyse{
+	background: #0194A8;
+}
+#nav .analyse div{
+	width: 237px;
+	height: 86px;
+	background: #21A1B3;
+	border: 1px solid #008193;
+	margin-left: 18px;
+	margin-top: 5px;
+}
+#nav .analyse div ul{
+	color: white;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-left: 10px;
+
+}
+#nav .analyse .add{
+	float: right;
+	margin-top: -90px;
+	margin-right: 20px;
+}
+/*  nav  结束*/
+#floatline{
+	width: 1178px;
+	height: 5px;
+	background: #118FC5;
+	margin-left:19px;
+}
+#Frame{
+
+	width:1210px;
+	background:#fff;
+	margin:0px auto;
+  clear:both;
+}
+
+
+.Menu{
+	/*height:100%;*/
+	float:left;
+}
+
+
+.Menu .TwoMenu{
+	width:90px;
+
+	float:left;
+	position:relative;
+	background:#00859d;
+	margin-left: 19px;
+
+}
+.Menu .TwoMenu a{
+
+	display:block;
+	font-size:12px;
+
+}
+.Menu .TwoMenu a img{
+	border:0px;
+}
+.Menu .TwoMenu a span{
+	width:30px;
+	height:15px;
+	color:#ebf6fc;
+	display:block;
+	margin:0px 2px;
+	line-height:15px;
+	text-align:center;
+}
+/*----------------显示隐藏层----------------*/
+#TwoMenu-01{
+	position:absolute;
+	top:0px;
+    display:none;
+}
+
+#TwoMenu-02{
+	position:absolute;
+	top:90px;
+    display:none;
+}
+
+#TwoMenu-03{
+	position:absolute;
+	top:180px;
+    display:none;
+}
+
+#TwoMenu-04{
+	position:absolute;
+	top:270px;
+    display:none;
+}
+
+#TwoMenu-05{
+	position:absolute;
+	top:360px;
+    display:none;
+}
+
+#TwoMenu-06{
+	position:absolute;
+	top:450px;
+    display:none;
+}
+
+#TwoMenu-07{
+	position:absolute;
+	top:540px;
+    display:none;
+}
+
+#TwoMenu-08{
+	position:absolute;
+	top:630px;
+    display:none;
+}
+
+/*----------------结束----------------*/
+.Menu .ThreeMenu{
+	/*height:100%;*/
+	width:1088px;
+	float:left;
+	padding-top:15px;
+}
+.Menu .ThreeMenu a{
+	width:200px;
+	height:75px;
+	float:left;
+	display:block;
+	border-radius: 3px;
+	padding-top:10px;
+	margin-left:15px;
+	margin-bottom:15px;
+	border: 1px solid rgb(213, 220, 231);
+}
+.Menu .ThreeMenu a img{
+	margin-left: 12px;
+	border:none;
+	float: left;
+}
+.Menu .ThreeMenu a span{
+	color:#000;
+	display:block;
+	margin-left: 80px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.Menu .ThreeMenu a .introduction{
+	color: rgb(174, 173, 173);
+	width: 100px;
+}
+/*  红色  */
+.Menu .ThreeMenu a.Red{
+	background:#fff;
+}
+/*  棕色  */
+.Menu .ThreeMenu a.Brown{
+	background:#fff;
+}
+/*  深蓝色  */
+.Menu .ThreeMenu a.Navy{
+	background:#fff;
+}
+/*  紫色  */
+.Menu .ThreeMenu a.Purple{
+	background:#fff;
+}
+/*  深绿色  */
+.Menu .ThreeMenu a.DarkGreen{
+	background:#fff;
+}
+/*  海蓝色  */
+.Menu .ThreeMenu a.Highland{
+	background:#fff;
+}
+/*  橙色  */
+.Menu .ThreeMenu a.Orange{
+	background:#fff;
+}
+/*  浅蓝色  */
+.Menu .ThreeMenu a.LightBlue{
+	background:#fff;
+}
+/*  浅绿色  */
+.Menu .ThreeMenu a.LightGreen{
+	background:#fff;
+}
+.Menu .ThreeMenu a.LightPurple{
+	background:#fff;
+}
+.Menu .ThreeMenu a.LightRed{
+	background:#fff;
+}
+
+.contab{ clear:both; }
+
+.content{
+	width: 1070px;
+	background: none;
+	border: none;
+	margin-bottom: 30px;
+	margin-left: 125px;
+}

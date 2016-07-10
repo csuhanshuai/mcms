@@ -1,0 +1,37 @@
+.ui-content {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	width: 288px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.ui-mobile,
+.ui-mobile body {
+	height: initial;
+}
+
+.ui-header .ui-title {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.ui-footer {
+	border-style: inherit;
+}
+
+.ui-page-theme-a {
+	background: initial;
+}
+
+	.ui-bar-a, .ui-page-theme-a .ui-bar-inherit {
+		background-color: #f8f8f8;
+		border-color: #e7e7e7;
+	}
+
+
+#form1 .ui-btn-green {
+	background-color: #72ad1f;
+	color: white;
+	text-shadow: initial;
+}

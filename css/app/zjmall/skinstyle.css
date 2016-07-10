@@ -1,0 +1,24 @@
+body,html{background:#362C23;}
+
+#category{background:#100F0D; border-right:1px solid #1C1B18;}
+#category .close{background:url(../images/bg.png?a=1) -228px -63px no-repeat; width:19px; height:18px;}
+#category dl dt{background:url(../images/bg.png) -297px -47px no-repeat;}
+#category dl dt{border-bottom:1px solid #1C1B18;}
+#category dl dt a{color:#eee;}
+#category dl dd{border-bottom:1px solid #1C1B18;}
+#category dl dd a{color:#ccc;}
+
+#footer{background:url(../images/footer_bg.jpg) repeat-x; background-size:12px 60px; height:50px;}
+#footer ul li{height:50px; padding-top:0px;}
+#footer ul li>a{color:#7f714e; line-height:80px;}
+#footer ul li.category{height:50px; padding:0;}
+#footer ul li.category a{width:45px; height:50px; line-height:80px; margin:0 auto; background:url(../images/nav-1.png) center 7px no-repeat; text-align:center; text-indent:0px; background-size:20px 18px;}
+#footer ul li.home a{background:url(../images/nav-0.png) center 6px no-repeat; background-size:24px 22px;}
+#footer ul li.cart a{background:url(../images/nav-3.png) center 7px no-repeat; background-size:22px 20px;}
+#footer ul li.member a{background:url(../images/nav-2.png) center 6px no-repeat; background-size:24px 21px;}
+
+#turn_page .page_button{background:#372E27; border:1px solid #1D1814;}
+#turn_page .page_item{background:#372E27; border:1px solid #1D1814;}
+#turn_page .page_item_current{background:#372E27; border:1px solid #1D1814;}
+#turn_page .page_noclick{background:#372E27; border:1px solid #1D1814;}
+#turn_page a{color:#aaa;}

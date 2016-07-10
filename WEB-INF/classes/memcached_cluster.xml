@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<memcached>
+     <!-- 商品缓存  -->
+   
+    <!-- 促销活动缓存 -->
+    <client name="cuxiaoclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="cuxiaopool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+        
+    <client name="cuxiaoclient2" compressEnable="true" defaultEncoding="UTF-8" socketpool="cuxiaopool2">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client> 
+    
+    <socketpool name="cuxiaopool1" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>   
+      
+    <socketpool name="cuxiaopool2" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>  
+     
+     
+     
+    <!-- 公用缓存 -->
+    <client name="commonclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="commonpool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="commonpool1" failover="true" initConn="20" minConn="50" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>  
+    
+    <client name="commonclient2" compressEnable="true" defaultEncoding="UTF-8" socketpool="commonpool2">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="commonpool2" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>  
+    
+    <!-- 品牌分类数据缓存 -->    
+    <client name="brandclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="brandpool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="brandpool1" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>
+    
+    <!-- 会员信息缓存 -->     
+    <client name="memberclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="memberpool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="memberpool1" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>
+     
+    <client name="memberclient2" compressEnable="true" defaultEncoding="UTF-8" socketpool="memberpool2">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="memberpool2" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool> 
+    
+     <!-- 订单缓存 -->     
+    <client name="orderclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="orderpool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="orderpool1" failover="true" initConn="20" minConn="20" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>
+    
+    <!-- 菜单，权限缓存 -->
+      <client name="menuclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="menupool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+    
+    <socketpool name="menupool1" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>  
+     
+    
+    <!-- 搜索缓存 -->
+    <client name="mclient1" compressEnable="true" defaultEncoding="UTF-8" socketpool="pool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+        
+    <client name="mclient2" compressEnable="true" defaultEncoding="UTF-8" socketpool="pool2">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>  
+    
+     <client name="mclient3" compressEnable="true" defaultEncoding="UTF-8" socketpool="pool1">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>
+        
+    <client name="mclient4" compressEnable="true" defaultEncoding="UTF-8" socketpool="pool2">
+        <errorHandler>com.alisoft.xplatform.asf.cache.memcached.MemcachedErrorHandler</errorHandler>
+    </client>  
+         
+    <socketpool name="pool1" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>   
+      
+    <socketpool name="pool2" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>  
+    
+    <socketpool name="pool3" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>   
+      
+    <socketpool name="pool4" failover="true" initConn="10" minConn="10" maxConn="3000" maintSleep="0"
+        nagle="false" socketTO="3000" aliveCheck="true">
+        <servers>127.0.0.1:11211</servers>
+    </socketpool>  
+    
+    <cluster name="cluster1" mode="active">//mode = active,standby
+        <memCachedClients>mclient1,mclient2,mclient3,mclient4</memCachedClients>
+    </cluster>
+  
+      <cluster name="cluster2" mode="active">//mode = active,standby
+        <memCachedClients>commonclient2,commonclient1</memCachedClients>
+    </cluster>
+   
+
+</memcached>

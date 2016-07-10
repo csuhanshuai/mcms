@@ -1,0 +1,126 @@
+/*photo*/
+.left{ float:left}
+.right{ float:right}
+input, textarea, select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+input, textarea, select {
+*font-size:100%;
+}
+.clr {
+	display:block;
+	clear:both;
+	height:0;
+	overflow:hidden;
+}
+
+#photo{
+	background-color: #ff6699;
+	padding: 20px 0px;
+}
+#photo .chatPanel{ 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#photo .chatPanel a{
+	text-decoration: none;
+}
+#photo .chatPanel .media {
+	border:0px solid #D1D1D1;
+	box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow:0 1px 2px 0 rgba(0, 0, 0, 0.25);
+	-webkit-border-radius:5px 5px 10px 10px;
+	-moz-border-radius:5px 5px 10px 10px;
+	border-radius:5px 5px 10px 10px;
+	background: url(bottom.png) repeat-x scroll left bottom #FFFFFF;
+background-size:2px auto;
+	margin: 15px 9px 0 10px;
+}
+
+#photo .chatPanel .media .mediaPanel {
+	padding:0px;
+	margin:0px;
+}
+
+#photo .chatPanel .media .mediaHead {
+	/*height:48px;*/
+		padding:10px 10px 8px;
+	border-bottom:0px solid #D3D8DC;
+	color:#000000;
+	font-size:20px;
+}
+#photo .chatPanel .media .mediaHead .title {
+	line-height:1.2em;
+	font-size:18px;
+	display:block;
+	text-align: left;/*height:25px;
+		white-space:nowrap;
+		text-overflow:ellipsis;
+		-o-text-overflow:ellipsis;
+		overflow:hidden;*/
+	}
+
+#photo .chatPanel .media .mediaHead .time {
+	margin:0px;
+	color:#8C8C8C;
+	background:none;
+	width:auto;
+	font-size:12px;
+	display:block;
+}
+#photo .chatPanel .media .mediaImg {
+	padding: 0px 10px 0px 10px;
+	overflow:hidden;
+	position: relative;
+	width: 200px;
+	height: 200px;
+}
+#photo .chatPanel .media .mediaImg img {
+	width: 100%;
+}
+#photo .chatPanel .mediaFullText .mediaContent {
+	padding:0 0 10px;
+	font-size:16px;
+	text-align:left;
+	color:#222222;
+}
+#photo .chatPanel .mediaFullText .mediaContentP {
+	margin:10px 10px 0;
+	border-bottom:1px solid #D3D8DC;word-break:normal;
+	word-wrap:word-break;
+}
+#photo .chatPanel .mediaFullText .mediaContent p{
+	max-height:40px; overflow:hidden; font-size:14px; 
+	line-height: 1.5em;
+}
+#photo .chatPanel .media .mediaFooter {
+	-webkit-border-radius:0px 0px 12px 12px;
+	-moz-border-radius:0px 0px 12px 12px;
+	border-radius:0px 0px 12px 12px;
+	padding: 0 10px;
+	overflow: hidden;
+}
+#photo .chatPanel .media .mediaFooter .bt{
+	line-height:38px;
+	display:block;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	color:#666;
+		
+}
+#photo .chatPanel .media .mesgIcon {
+	display:inline-block;
+	height:19px;
+	width:13px;
+	margin:8px 0px -2px 4px;
+	background:url(ico-next2.png) no-repeat;
+	background-size: 10px auto;
+}
+#photo .chatPanel .media .mediaFooter .mesgIcon {
+	margin:10px 0px 15px 0;
+}

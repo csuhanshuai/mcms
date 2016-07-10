@@ -1,0 +1,12 @@
+body,html{background:#362C23;}
+
+#detail *{color:#eee;}
+#detail .pro_img{background:#28211B;}
+#detail .info{border-bottom:1px solid #28211B;}
+#detail .info li.price del{color:#ccc;}
+#detail .info li.qty select{color:#555;}
+#detail .desc .txt{color:#eee;}
+#detail .desc .detail a{color:#ddd;}
+#detail #addtocart_tips *{color:#333;}
+#detail .info li.property span{border:1px solid #666; background:#282020;}
+#detail .info li.property span.cur{border:1px solid #201818; color:#ddd; background:#322222;}

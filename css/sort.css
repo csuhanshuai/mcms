@@ -1,0 +1,72 @@
+@charset "utf-8";
+.clear{ clear:both} 
+input{-webkit-appearance:none;outline:none;border:0
+} 
+*{ margin:0; padding:0;-webkit-border-radius:0;-webkit-appearance:none ;-webkit-border-radius: 0; -webkit-appearance: none;}
+body{ font-size:16px;line-height:1.25em; min-width:320px; background-color:#f0f0f0; font-family:"微软雅黑"; max-width:100%; padding-bottom:50px; }
+.head{ background-color:#666; width:100%; height:43px; border-bottom:solid 1px #dc7003;}
+.top_0,.top_1,.top_2{ float:left; height:44px; background-repeat:no-repeat; background-position:center; display:block;}
+.top_0{ width:25%;background-image:url(images/map.png); background-size: 20px auto; }
+
+.top_1{ width:50%; font-size:1.5em; line-height:44px; color:#FFF; text-align:center;}
+.top_2{ width:25%;  background-image:url(images/sou.png); background-size: 20px auto; }
+.banner{display:block; margin:0 auto;}
+/*后加的*/
+.iop_0,.iop_1,.iop_2,.iop_3{ float:left; height:44px; background-repeat:no-repeat; background-position:center; display:block;}
+.iop_0{ width:44px; border-right:solid 1px  #ef7700; background-image:url(imageshui.png);background-size: 20px auto; }
+
+.iop_1{ width:45%; font-size:1.5em; line-height:44px; color:#FFF; text-align:center;}
+.iop_2{ width:20%; background-image:url(images/xihuan.png);background-size: 20px auto; }
+.iop_3{ width:19%; background-image:url(images/fenxiang.png); background-size: 20px auto; display:block;}
+/*后加的*/
+nav{ width:100%;}
+#footer{ width:100%; height:47px; border-top:solid 1px #cacaca; background-color:#ededed;position:fixed;bottom:0; }
+.bottom1,.bottom2,.bottom3,.bottom4{ width:25%; height:40px; float:left; margin-top:2px;}
+#yellow{font-size:0.75em; text-align:center; display:block; margin:0 auto; color:#ff8000; }
+footer span{ font-size:0.75em; text-align:center; color:#969696; display:block; margin:0 auto; }
+.tui,.jia,.wo,.geng{ width:26px; height:25px; margin:0 auto; background-repeat:no-repeat; background-position:center; background-size:26px auto;}
+
+.tui{ background-image:url(images/iconpen.png);}
+.jia{ background-image:url(images/iconhome_1.png);}
+.wo{ background-image:url(images/iconmy.png);}
+.geng{ background-image:url(images/iconduo.png);}
+.paixu{ width:100%; height:37px; background-color:#ffffff;border-bottom:1px solid #d4d4d4;border-top:1px solid #d4d4d4;}
+/*min*/
+
+.xu{ width:25%; float:left; text-align:center; color:#666666;font-size:0.825em; }
+.yuan{  border-radius:66px; background-color:#e0e0e0; display:block;padding:8px; float:right; margin-top:10px; background-image:url(images/xsanjiao.png); background-repeat:no-repeat; background-position:center; background-size:50%;}
+.yuan:hover{ background-color:#F60;}
+.xiaosanjiao{ width:5.5px; height:3.5px;  margin:0 auto;}
+.xuan1,.xuan2,.xuan3,.xuan4{ width:70%; margin:0 auto; }
+.xuan5{ width:20%; margin:0 auto; align:center; valign:middle; font-size: 0.825em;}
+.xu a{ text-align:center; line-height:2.5em;}
+
+.lang{ width:100%;min-height:108px; background-color:#FFF; border-bottom:solid 2px #e1e1e1;}
+.lang_l{ float:left; width:105px; height:76px; overflow:hidden; background-color:#999; margin:1em 0.625em 0px 0.625em;}
+.lang_r{ float:left; margin:15px 10px 0px 0px; min-width:50%; }
+.lang_r h2{ font-size:0.875em; color:#181818; float:left; }
+.lang_r h3{ font-size:0.8125em; color:#181818; float:right; font-weight:normal; }
+.lang_r p{ font-size:0.8125em; line-height:2.5em;}
+.hui{ color:#FFF; background-color:#F00; margin-left:5px; font-size:0.625em; height:20px; padding-left:2px; padding-right:2px;}
+.cheng{ float:left; color:#ff8000; font-size:0.625em;}
+.huise{ float:left; color:#c9c9c9; font-size:0.625em;}
+.xiala{ width:50px; height:10px; display:block; margin:0 auto; background-color:#f5f5f5; background-image:url(images/hsanjiao.png); background-repeat:no-repeat; background-position:center; background-size:13px auto;}
+.lang_b{ width:100%; margin-bottom:1em;
+
+ border-bottom: 2px solid #e6e6e6;}
+
+.yincang{ width:98%; height:30px; background-color:#d7cec5; margin:0 auto; margin-top:0.25em; }
+.fenxiang,.zhuanyong{padding-top:2px;padding-bottom:2px; width:40%; margin-left:5%; margin-right:5%; margin-top:7px; color:#FFF; background-color:#F60; font-size:0.625em;}
+.huiqu{ width:90%; line-height:2.5em; font-size:0.825em; height:2.5em; text-align:right; padding-right:10%; background-color:#FFF; border-bottom:1px solid #CCC;border-top:1px solid #CCC; color:#323232;}
+.huiqu a{ text-decoration:none; color:#323232;}
+@media screen and (min-width:480px) {
+.body {
+	font-size: 21px
+}
+}
+
+@media screen and (min-width:640px) {
+.body {
+	font-size: 28px
+}
+}

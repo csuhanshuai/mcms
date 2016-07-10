@@ -1,0 +1,315 @@
+﻿@charset "utf-8";
+*{
+    margin:0;
+	padding:0;
+	font-family: "微软雅黑", "Arial","宋体"; 
+	font-size:16px;
+	line-height:150%;
+	color:#000;
+}
+
+
+body{
+-webkit-text-size-adjust: 100%;
+FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#b8edff,endColorStr=#59bb33); /*IE*/
+background:-moz-linear-gradient(top,#b8edff,#59bb33);/*火狐*/
+background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#b8edff), to(#59bb33));/*谷歌*/
+background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #b8edff),color-stop(1, #59bb33));/* Safari & Chrome*/
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b8edff', endColorstr='#59bb33'); /*IE6 & IE7*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#b8edff', endColorstr='#59bb33')"; /* IE8 */ 
+}
+
+ul,li,p,h1,h2{padding:0; margin:0;}
+ul,li{ list-style:none;}
+
+#container{
+	padding:16px 16px 0 16px;
+	min-height:550px;_height:550px;
+}
+
+section article{margin:0; padding:0;}
+input[type=text]{
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	padding-left:4px;
+	height:36px;
+	line-heigh:30px;
+	background:#f3f3f3;
+	width:70%;
+	color:#000;
+}
+
+input[type=radio]{
+ 	width: 20px;
+    height: 20px;
+    display: inline-block;
+    float: left;
+    margin: 3px 7px 0 0;
+    cursor: pointer;
+    position: relative;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #a3a3a3; 
+	top:5px;
+} 
+
+article fieldset {
+	margin:0 10px;
+}
+fieldset legend{margin-left:20px; height:40px; line-height:40px;padding:0 4px;}
+
+fieldset{
+	border-left:0;
+	border-right:0;
+	border-bottom:0;
+	border-top:#fff solid 1px;
+}
+fieldset ul.role {padding-left:16px;width:100%;}
+fieldset ul.role li{width:45%;float:left; line-height:40px; height:40px;color:#000;}
+
+.team_flag  tr td{text-align:center; width:25%; white-space:normal; padding-bottom:0px;}
+.team_flag  tr td.on p{color:#FF0000;}
+.team_flag  tr td p{font-size:12px; line-height:16px;padding-top:0;}
+.team_flag  tr td img{margin:0;}
+
+.intro{
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+	border:#bcbcbc solid 0px;
+	margin-bottom:12px;
+	padding:6px 0;
+	display: inline-block;
+	width:100%;
+	background-color: rgba(160, 220, 77, 0.85); 
+	-webkit-box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 6px rgba(0,0,0,.2);
+    box-shadow: 0 1px 6px rgba(0,0,0,.2);
+	
+	
+}
+.intro h1{color:#ff6600;
+	-webkit-border-radius:0px 6px 6px 0;
+	-moz-border-radius:0px 6px 6px 0;
+	border-radius:0px 6px 6px 0;
+	width:100%;
+	background:#438f44;
+	margin-bottom:8px;
+	color:#a10000;
+	height:auto;
+	line-height:40px;
+	padding-left:16px;
+	font-size:18px;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f0f900), to(#959e02));
+    background: -moz-linear-gradient(top,  #f0f900,  #959e02);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f900', endColorstr='#959e02');
+	 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.intro h2{
+	line-height:5px;
+	background:#89be09;
+	margin-bottom:10px;
+	padding-left:6px;
+	color:#fff;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	border-radius:6px;
+}
+
+.intro strong{color:#9a04a3;font-size:16px;padding:0 1px;}
+.intro p{padding:2px 10px;color:#000;text-shadow: 0 1px 1px rgba(255,255,255,.3);}
+ul.contact_info{float:left;width:100%;}
+.intro ul.contact_info li{display:block;float:left;padding-left:8px; line-height:42px;height:42px;}
+.text_info{ display:block;width:80px;}
+
+img{
+	-webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.logo img{
+	width:250px;
+	border:0;
+	-webkit-border-radius:0px; 
+    -moz-border-radius:0px;
+    border-radius:0px;
+	-webkit-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0px 0px rgba(0,0,0,.2);
+    box-shadow: 0 0px 0px rgba(0,0,0,.2);
+}
+
+
+
+.font_shadow{text-shadow:0 1px 1px rgba(255,255,255,.3);}
+
+.button{
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    vertical-align: baseline;
+	border:0;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font: 14px/100% Arial, Helvetica, sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+ .green{
+    color: #fff;
+    background: #b4e189;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f673c1), to(#dc29a3));
+    background: -moz-linear-gradient(top,  #f673c1,  #dc29a3);
+    filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#f673c1', endColorstr='#dc29a3');
+	height:46px;
+	line-height:46px;
+	font-size:20px;
+	width:100%;
+}
+
+.red{
+	color:#fff;
+    border: solid 0px #333;
+    background:url(red_btn.png) center top no-repeat;
+	height:46px;
+	line-height:46px;
+	width:100%;
+	font-size:20px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+.red2{
+	color:#fff;
+    border: solid 0px #333;
+    background:url(../../gameImg/red_btn.png) center top no-repeat;
+	height:46px;
+	line-height:46px;
+	width:50%;
+	font-size:20px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+.top{
+	color:#fff;
+    border: solid 0px #333;
+    background:url(../../gameImg/top.png) center top no-repeat;
+	height:46px;
+	line-height:40px;
+	width:100%;
+	font-size:20px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+.game_detail{
+	color:#fff;
+    border: solid 0px #333;
+    background:url(../../gameImg/game_detail.png) center top no-repeat;
+	height:46px;
+	line-height:40px;
+	width:100%;
+	font-size:20px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+.person_info{
+	color:#fff;
+    border: solid 0px #333;
+    background:url(../../gameImg/person_info.png) center top no-repeat;
+	height:46px;
+	line-height:40px;
+	width:100%;
+	font-size:20px;
+	text-align:center;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+}
+
+ul.good_friend_list{padding:0 20px;}
+
+ul.good_friend_list li{width:100%;float:left;padding-left:6px;height:32px;}
+ul.good_friend_list li.title{ border-bottom:#016f0d solid 1px;line-height:52px; height:34px;margin-bottom:6px;}
+ul.good_friend_list li span{float:left;display:block;}
+ul.good_friend_list li span.name{width:30%;}
+ul.good_friend_list li span.time{width:40%;}
+ul.good_friend_list li span.jion_time{width:230; text-align:center;float:right;}
+
+.intro p.address_alert{
+	color:#000;
+	text-shadow: 0 1px 1px rgba(255,255,255,.3);
+	font-weight:bold;
+	font-size:18px;
+}
+
+.user_info li{ float:left;}
+.user_info li.info{
+	width:97%;
+	height:32px;
+	line-height:32px;
+	background:#fff;
+	margin:5px 0 5px 0;
+	padding-left:6px;
+	border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.user_info li.info label{width:100px;display:block;float:left;line-height:30px;text-align:right;}
+.user_info li.name{
+	width:50%;
+	line-height:60px;
+	border:#ff6600 solid 0px;
+	background:#fff;
+	text-align:center;
+	-webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	font-size:25px;
+	color:#ff6600;
+}
+.user_info li.guoji{ float:right;width:40%;text-align:center;}
+
+#ranking_list{
+	-webkit-border-radius: 6px; 
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+#ranking_list tr td{
+	padding-left:6px;
+	border:#fff solid 1px;
+	-webkit-border-radius:6px; 
+    -moz-border-radius: 6px;
+    border-radius:6px;
+	background:#f0dd06;
+	height:34px;
+}
+#ranking_list tr td img{ position:relative;top:4px;right:2px;}
+#ranking_list tr.on td{
+	padding-left:6px;
+	border:#fff solid 1px;
+	-webkit-border-radius:6px; 
+    -moz-border-radius: 6px;
+    border-radius:6px;
+	background:#fff;
+}
+
+
+
+

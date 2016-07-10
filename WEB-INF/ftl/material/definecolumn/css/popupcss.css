@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0; font-size:12px; color:#666}
+body,button,input,select,textarea{font:12px/1.6 Verdana, 宋体, Helvetica, sans-serif}
+h1,h2,h3,h4,h5,h6{font-size:100%}
+li {list-style-type:none;} 
+
+
+.fuxuan{ float: left;  padding: 5px; width:120px; line-height:16px}
+.fuxuan label{ padding-left:5px}
+.fuxuan input { float:left ;width:16px; height:16px;}
+

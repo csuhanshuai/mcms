@@ -1,0 +1,98 @@
+#material .list .item{width:350px; margin-right:15px; margin-bottom:15px; border:1px solid #ddd; background:#fff; float:left; zoom:1;}
+#material .list .first_item{border:1px dotted #ddd; height:150px; width:305px; padding-left:45px;}
+#material .list .first_item>div{width:85px; text-align:center; float:left; margin:40px 20px;}
+#material .list .first_item div div{width:47px; height:55px; margin:0 auto; background:url(../images/bg.png) -850px -50px no-repeat; margin-bottom:10px;}
+#material .list .first_item div.multi div{background:url(../images/bg.png) -898px -50px no-repeat;}
+#material .list .first_item div div a{display:block; width:47px; height:55px;}
+#material .list .first_item a{color:#B5B5B5;}
+#material .list .multi .list .info{left:20px;}
+#material .button{text-align:center; padding:35px 0; padding-left:35px; padding-bottom:70px; width:340px; height:32px;}
+#material .one{padding-top:10px;}
+#material .one div{width:320px; margin:0 auto;}
+#material .one .title{height:22px; line-height:22px; overflow:hidden;}
+#material .one .img{width:320px; text-align:center; height:180px; line-height:180px; overflow:hidden; font-size:20px; color:#888; background:#ECECEC; margin-top:8px;}
+#material .one .img img{max-width:320px; max-height:180px;}
+#material .one .txt{line-height:150%; padding:5px 0;}
+#material div.mod_del{width:350px; background:#F4F4F4; border-top:1px solid #ddd; padding:10px 0; height:24px;}
+#material div.mod_del div{float:left; width:175px; text-align:center; height:18px; padding:3px 0;}
+#material div.mod_del div.mod{width:174px; border-right:1px solid #ddd;}
+#material .multi .time{width:320px; margin:0 auto; padding-top:8px; height:20px; line-height:20px;}
+#material .multi .first{width:320px; margin:0 auto; margin-top:8px; height:208px; position:relative; overflow:hidden; margin-bottom:10px;}
+#material .multi .first .info{position:absolute; width:320px; overflow:hidden;}
+#material .multi .first .info .img{text-align:center; height:180px; line-height:180px; font-size:20px; color:#888; background:#ECECEC;}
+#material .multi .first .info .img img{max-width:320px; max-height:180px;}
+#material .multi .first .info .title{height:28px; line-height:28px; overflow:hidden; text-indent:8px; color:#fff; background:#666; font-size:12px;}
+#material .multi .first .control{position:absolute; width:320px; height:208px; line-height:208px; text-align:center; overflow:hidden; background:#ddd; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity:0.7; opacity:0.7; display:none;}
+#material .multi .list{border-top:1px solid #ddd; height:92px; overflow:hidden; position:relative;}
+#material .multi .list .info{position:absolute; width:320px; left:10px; height:72px; padding:10px 0;}
+#material .multi .list .info .title{width:240px; float:left; overflow:hidden;}
+#material .multi .list .info .img{width:70px; height:70px; line-height:70px; overflow:hidden; text-align:center; float:right; overflow:hidden; border:1px solid #B2B8BD; background:#ECECEC; color:#C0C0C0;}
+#material .multi .list .info .img img{max-width:70px; max-height:70px;}
+#material .multi .list .control{position:absolute; width:340px; height:92px; line-height:92px; text-align:center; background:#ddd; filter:alpha(opacity=70); -moz-opacity:0.7; -khtml-opacity:0.7; opacity:0.7; display:none;}
+#material .multi .add{text-align:center; border-top:1px solid #B2B8BD; padding:35px 0;}
+#material .m_lefter{float:left; width:340px; overflow:hidden; border:1px solid #ddd; border-bottom:2px solid #ddd; background:#fff; margin-right:12px;}
+#material .m_righter{float:left; width:412px; position:relative; border:none; background:#fff;}
+#material .m_righter .input input{width:280px; height:28px; line-height:28px; border:1px solid #ddd; background:#F5F5F5; text-indent:3px; border-radius:5px;}
+#material .m_righter .tips{font-size:12px; color:#888;}
+#material .m_righter textarea{width:350px; height:80px; line-height:150%; border:1px solid #ddd; background:#F5F5F5; padding:4px; border-radius:5px;}
+#material .m_righter .mod_form{position:absolute; height:190px; top:0px; width:414px; background:#fff;}
+#material .m_righter .mod_form .jt{float:left; width:12px; height:150px; padding-top:40px; z-index:2; position:relative;}
+#material .m_righter .mod_form .m_form{float:left; width:380px; margin-left:-1px; border:1px solid #ddd; background:#fff; padding:10px; z-index:1; position:relative;}
+#material .m_righter select{height:32px; border:1px solid #ddd; padding:5px; width:300px; vertical-align:middle; border-radius:5px; margin-top:5px;}
+#material .m_righter select *{width:300px; overflow:hidden;}
+
+#url .type{margin-bottom:15px; height:30px;}
+#url .type a{display:block; width:80px; height:30px; line-height:30px; background:#ddd; float:left; margin-right:10px; text-align:center; text-decoration:none;}
+#url .type a.cur, #url .type a:hover{background:#1584D5; color:#fff;}
+#url .add_form{border:1px solid #ddd; background:#f7f7f7; margin-bottom:10px;}
+#url .mod_form{border:1px dotted red;}
+#url .add_form td{padding:10px 5px;}
+#url .add_form td .form_input{height:28px; line-height:28px; vertical-align:middle; border-radius:5px;}
+#url .add_form td .submit{height:28px; line-height:28px; background:#1584D5; border:none; color:#fff; width:100px; border-radius:5px; font-size:14px;}
+
+#attention a.material{font-size:12px; margin-left:15px; text-decoration:underline; color:#ff6600;}
+
+#token .set_token_msg{height:30px; line-height:30px; text-indent:130px; color:red; display:none;}
+#token .tips_info{background:#f7f7f7; border-radius:5px; border:1px solid #ddd; height:36px; line-height:36px; padding:0 10px; margin-bottom:10px;}
+#token .tips_info strong{color:#444;}
+#token .input .tips{font-size:14px;}
+#token .r_con_form .rows label{width:90px;}
+#token .r_con_form .rows .input{ width:625px;}
+
+#wechat_menu .tips_info{background:#f7f7f7; border:1px solid #ddd; font-size:12px; line-height:220%; padding:10px; margin-bottom:10px;}
+#wechat_menu .tips_info span{color:red; font-size:12px;}
+#wechat_menu .tips_info a{color:#ff6600;}
+#wechat_menu .m_menu .from{border:1px solid #ddd; background:#f7f7f7; padding:20px;}
+#wechat_menu .m_menu .m_lefter{float:left; width:287px; padding:10px; border:1px solid #ddd; background:#f7f7f7; min-height:318px; _height:318px; overflow:hidden;}
+#wechat_menu .m_menu .m_lefter dd{border:1px solid #f7f7f7; border-bottom:1px solid #ddd; background:#f7f7f7;}
+#wechat_menu .m_menu .m_lefter dd.placeHolder{border:dashed 1px #1584D5; background:#fff;}
+#wechat_menu .m_menu .m_lefter dd div.list{height:30px; line-height:30px; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; cursor:move;}
+#wechat_menu .m_menu .m_lefter dd div.no_ext{height:50px; line-height:50px;}
+#wechat_menu .m_menu .m_lefter dd ul{padding-left:40px;}
+#wechat_menu .m_menu .m_lefter ul li{height:24px; line-height:24px; overflow:hidden; font-size:12px; border:1px solid #f7f7f7;}
+#wechat_menu .m_menu .m_lefter ul li:hover{background:#e6e6e6;}
+#wechat_menu .m_menu .m_lefter ul li.placeHolder{border:dashed 1px #1584D5; background:#fff;}
+#wechat_menu .m_menu .m_lefter ul li .title{height:24px; line-height:24px; float:left; overflow:hidden; white-space:nowrap; width:100px; text-overflow:ellipsis; cursor:move; font-size:12px;}
+#wechat_menu .m_menu .m_lefter ul li .opt{float:right; padding-top:3px; padding-right:10px; display:none; cursor:move;}
+#wechat_menu .m_menu .m_lefter .publish{padding:10px 0;}
+#wechat_menu .m_menu .m_righter{float:left; width:450px; margin-left:10px;}
+#wechat_menu .m_menu .m_righter form{padding:10px; border:1px solid #ddd; background:#f7f7f7; zoom:1;}
+#wechat_menu .m_menu .m_righter .mod_form{border:1px dotted red;}
+#wechat_menu .m_menu .m_righter h1{font-weight:bold; padding-bottom:5px;}
+#wechat_menu .m_menu .m_righter .opt_item{padding:5px 0;}
+#wechat_menu .m_menu .m_righter .opt_item label{float:left; width:70px; height:28px; line-height:28px;}
+#wechat_menu .m_menu .m_righter .opt_item .input{float:left; width:350px; display:block; line-height:28px;}
+#wechat_menu .m_menu .m_righter .opt_item .input .form_input{border:1px solid #ddd; border-radius:5px; height:28px; line-height:28px; text-indent:2px;}
+#wechat_menu .m_menu .m_righter .opt_item .input textarea{width:95%; height:80px; border-radius:5px; padding:5px;}
+#wechat_menu .m_menu .m_righter .opt_item .input select{height:32px; border:1px solid #ddd; border-radius:5px; padding:5px; width:220px; overflow:hidden;}
+#wechat_menu .m_menu .m_righter .opt_item .input .submit{height:32px; line-height:32px; background:#1584D5; border:none; color:#fff; width:120px; border-radius:5px;}
+#wechat_menu .m_menu .m_righter .opt_item .input a{font-size:12px; margin-left:15px; text-decoration:underline; color:#ff6600;}
+
+#wechat_auth .tips_info{background:#f7f7f7; border:1px solid #ddd; font-size:12px; line-height:220%; padding:10px; margin-bottom:10px;}
+#wechat_auth .tips_info span{color:red; font-size:12px;}
+#wechat_auth .oauth_tips{color:#888; line-height:180%; font-size:12px;}
+#wechat_auth .oauth_tips *{font-size:12px;}
+#wechat_auth .oauth_tips h1{color:#555;}
+
+#reply_keyword #r_con_form{padding:50px 20px;}
+#reply_keyword .input a.material{font-size:12px; margin-left:15px; text-decoration:underline; color:#ff6600;}
